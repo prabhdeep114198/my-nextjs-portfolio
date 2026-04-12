@@ -3,6 +3,7 @@
 
 
 @layer base {
+
   /* Applied before JS to prevent white flash — matches .dark --background value */
   html {
     background-color: hsl(224, 47%, 7%);
@@ -200,13 +201,16 @@ textarea,
 ::-webkit-scrollbar {
   width: 6px;
 }
+
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
   background: hsl(var(--accent) / 0.3);
   border-radius: 3px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(var(--accent) / 0.5);
 }
