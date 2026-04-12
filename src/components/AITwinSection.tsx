@@ -50,7 +50,7 @@ const AITwinSection = () => {
               <div className="flex-1 relative z-10">
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glass-subtle border border-black/10 dark:border-white/10 text-xs font-mono text-primary mb-6">
                   <span
-                    className={`w-2 h-2 rounded-full motion-reduce:animate-none shadow-[0_0_6px_rgba(41,214,185,0.35)] ${
+                    className={`w-2 h-2 rounded-full motion-reduce:animate-none shadow-[0_0_8px_rgba(139,92,246,0.4)] ${
                       status === "available"
                         ? "bg-primary animate-pulse"
                         : status === "checking"
@@ -82,7 +82,7 @@ const AITwinSection = () => {
                   onClick={() => handlePromptClick("")}
                   className={`inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold text-sm tracking-wide transition-all duration-300 active:scale-95 ${
                     isAvailable
-                      ? "bg-primary text-primary-foreground shadow-[0_0_16px_rgba(41,214,185,0.16)] hover:shadow-[0_0_24px_rgba(41,214,185,0.22)]"
+                      ? "bg-primary text-primary-foreground shadow-[0_0_20px_rgba(139,92,246,0.2)] hover:shadow-[0_0_30px_rgba(139,92,246,0.3)]"
                       : "bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10 text-foreground"
                   }`}
                 >
@@ -101,7 +101,7 @@ const AITwinSection = () => {
                     disabled={!canAttemptChat}
                     className={`group w-full text-left px-5 py-4 rounded-2xl border transition-all duration-300 flex items-center justify-between shadow-accent-soft ${
                       canAttemptChat
-                        ? "bg-black/5 dark:bg-white/5 border-black/5 dark:border-white/5 hover:border-primary/30 hover:shadow-[0_14px_40px_rgba(41,214,185,0.14)]"
+                        ? "bg-black/5 dark:bg-white/5 border-black/5 dark:border-white/5 hover:border-primary/30 hover:shadow-[0_14px_40px_rgba(139,92,246,0.14)]"
                         : "bg-black/5 dark:bg-white/[0.03] border-black/5 dark:border-white/5 opacity-60 cursor-not-allowed"
                     }`}
                   >

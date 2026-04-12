@@ -34,7 +34,7 @@ const Footer = () => (
                 <Image src={logo} alt="" aria-hidden="true" className="w-8 h-8 opacity-80 group-hover:opacity-100 relative z-10 transition-opacity pointer-events-none" draggable={false} />
               </div>
               <span className="text-base font-bold text-muted-foreground group-hover:text-foreground transition-colors tracking-tight">
-                Nikunj Khitha
+                Prabhdeep Singh
               </span>
             </a>
 
@@ -56,7 +56,7 @@ const Footer = () => (
 
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between mb-8 text-center sm:text-left">
             <p className="text-sm font-medium text-foreground/85">
-              Open to backend, full-stack, platform, and AI product engineering roles.
+              Open to Software Development, Full-Stack, and AI engineering roles.
             </p>
             <a
               href={personalInfo.resumeUrl}
@@ -70,7 +70,7 @@ const Footer = () => (
           {/* Mobile: centered social icons above copyright | Desktop: copyright-left icons-right */}
           <div className="flex flex-col-reverse sm:flex-row items-center justify-between gap-6">
             <p className="text-xs text-muted-foreground/60 text-center sm:text-left font-medium">
-              © {new Date().getFullYear()} Nikunj Khitha · Built with Next.js &amp; Tailwind
+              © {new Date().getFullYear()} Prabhdeep Singh · Built with Next.js &amp; Tailwind
             </p>
 
             <div className="flex items-center gap-3">

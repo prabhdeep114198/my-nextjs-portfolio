@@ -84,14 +84,14 @@ const HeroSection = () => {
       className="relative flex min-h-[100svh] items-start overflow-hidden pt-[calc(5rem+env(safe-area-inset-top))] pb-[max(2rem,env(safe-area-inset-bottom))] sm:pt-[calc(5.5rem+env(safe-area-inset-top))] sm:pb-[max(2.5rem,env(safe-area-inset-bottom))] lg:min-h-screen lg:items-center lg:pt-20 lg:pb-0"
     >
       {/* Subtle background grid & Animated Glow Orb */}
-      <div className="absolute inset-0 opacity-[0.03] pointer-events-none" style={{
-        backgroundImage: "radial-gradient(hsl(var(--accent)) 1px, transparent 1px)",
-        backgroundSize: "32px 32px",
+      <div className="absolute inset-0 opacity-[0.05] pointer-events-none" style={{
+        backgroundImage: "radial-gradient(hsl(var(--primary)) 0.5px, transparent 0.5px)",
+        backgroundSize: "48px 48px",
       }} />
       
       {/* Massive Glowing Animated Orbs */}
-      <div className="absolute top-1/4 -right-1/4 w-[800px] h-[800px] rounded-full animate-[pulse_8s_ease-in-out_infinite] motion-reduce:animate-none opacity-50 pointer-events-none bg-[radial-gradient(circle,hsl(var(--primary)/0.2)_0%,transparent_70%)]" />
-      <div className="absolute bottom-0 -left-1/4 w-[600px] h-[600px] rounded-full animate-[pulse_10s_ease-in-out_infinite_reverse] motion-reduce:animate-none opacity-40 pointer-events-none bg-[radial-gradient(circle,hsl(var(--accent)/0.2)_0%,transparent_70%)]" />
+      <div className="absolute top-1/4 -right-1/4 w-[800px] h-[800px] rounded-full animate-[pulse_8s_ease-in-out_infinite] motion-reduce:animate-none opacity-30 pointer-events-none bg-[radial-gradient(circle,hsl(var(--primary)/0.3)_0%,transparent_70%)]" />
+      <div className="absolute bottom-0 -left-1/4 w-[600px] h-[600px] rounded-full animate-[pulse_10s_ease-in-out_infinite_reverse] motion-reduce:animate-none opacity-20 pointer-events-none bg-[radial-gradient(circle,hsl(var(--accent)/0.3)_0%,transparent_70%)]" />
       
       {/* Smooth fade into the next section */}
       <div className="absolute bottom-0 inset-x-0 h-32 sm:h-64 bg-gradient-to-t from-background via-background/80 to-transparent pointer-events-none z-0" />
@@ -102,8 +102,8 @@ const HeroSection = () => {
           {/* Left - Content */}
           <motion.div variants={container} initial="hidden" animate="show" className="flex flex-col gap-6 sm:gap-8 lg:col-span-7">
             <motion.div variants={item}>
-              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-mono font-bold glass-subtle border border-primary/20 text-primary tracking-wide shadow-[0_0_12px_rgba(41,214,185,0.1)]">
-                <span className="w-2 h-2 rounded-full bg-primary animate-pulse motion-reduce:animate-none" />
+              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-mono font-bold glass-subtle border border-primary/30 text-primary tracking-wide shadow-[0_0_20px_rgba(139,92,246,0.15)]">
+                <span className="w-2 h-2 rounded-full bg-primary animate-pulse motion-reduce:animate-none shadow-[0_0_8px_hsl(var(--primary))]" />
                 Available for New Opportunities
               </span>
             </motion.div>
@@ -124,7 +124,7 @@ const HeroSection = () => {
             <motion.div variants={item} className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mt-1 sm:mt-2">
               <a
                 href="#projects"
-                className="inline-flex w-full sm:w-auto justify-center items-center gap-2 px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-bold text-sm tracking-wide shadow-[0_0_20px_rgba(41,214,185,0.18)] hover:shadow-[0_0_28px_rgba(41,214,185,0.24)] transition-all duration-300 active:scale-95"
+                className="inline-flex w-full sm:w-auto justify-center items-center gap-2 px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-bold text-sm tracking-wide shadow-[0_0_30px_rgba(139,92,246,0.3)] hover:shadow-[0_0_45px_rgba(139,92,246,0.4)] transition-all duration-300 active:scale-95"
               >
                 View Projects
                 <ArrowDown className="w-4 h-4 ml-1" />

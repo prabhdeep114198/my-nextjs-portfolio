@@ -160,7 +160,7 @@ const Navbar = () => {
         >
           <a href="#hero" aria-label="Go to hero section" className="flex items-center gap-2 group">
             <Image src={logo} alt="" aria-hidden="true" className="w-10 h-10 sm:w-12 sm:h-12 transition-transform duration-300 group-hover:scale-110 pointer-events-none" draggable={false} />
-            <span className="font-bold text-lg tracking-wide hidden sm:block">Nikunj Khitha</span>
+            <span className="font-bold text-lg tracking-wide hidden sm:block">Prabhdeep Singh</span>
           </a>
 
           <div className="hidden md:flex items-center gap-1.5">
@@ -172,7 +172,7 @@ const Navbar = () => {
                 aria-current={activeSection === link.href ? "location" : undefined}
                 className={`px-3 py-2 text-sm font-medium transition-all duration-200 rounded-full ${
                   activeSection === link.href
-                    ? "bg-primary/10 text-primary shadow-[0_0_14px_rgba(41,214,185,0.1)]"
+                    ? "bg-primary/10 text-primary shadow-[0_0_14px_rgba(139,92,246,0.12)]"
                     : "text-muted-foreground hover:text-foreground hover:bg-white/10"
                 }`}
               >

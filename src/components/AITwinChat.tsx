@@ -58,7 +58,7 @@ type ChatRequestError = Error & {
 const WELCOME = WELCOME_MESSAGE;
 const INITIAL_MESSAGES: Message[] = [{ id: "welcome", role: "assistant", content: WELCOME }];
 const FOCUSABLE_SELECTOR = 'button:not([disabled]), [href], input:not([disabled]), [tabindex]:not([tabindex="-1"])';
-const OFFLINE_ASSISTANT_MESSAGE = "Nikunj's AI twin is offline right now. You can still browse the projects, review backend and platform work, use the contact section, or download the resume while the service is unavailable.";
+const OFFLINE_ASSISTANT_MESSAGE = "Prabhdeep's AI twin is offline right now. You can still browse the projects, review full-stack development and AI automation work, use the contact section, or download the resume while the service is unavailable.";
 
 function createMessageId() {
   if (typeof crypto !== "undefined" && typeof crypto.randomUUID === "function") {
@@ -707,7 +707,7 @@ const AITwinChat = () => {
             <Bot className="w-4 h-4 text-primary" />
           </div>
           <div>
-            <p id="ai-twin-title" className="text-sm font-semibold">Nikunj&apos;s AI Twin</p>
+            <p id="ai-twin-title" className="text-sm font-semibold">Prabhdeep&apos;s AI Twin</p>
             <div className="flex items-center gap-1.5">
               <span className={`w-1.5 h-1.5 rounded-full motion-reduce:animate-none ${chatStatusDotClass}`} />
               <p id="ai-twin-status" className="text-[10px] text-muted-foreground uppercase tracking-wider font-medium">{chatStatusLabel}</p>
@@ -915,7 +915,7 @@ const AITwinChat = () => {
               void handleSend();
             }}
             placeholder={canSendMessages ? "Type a message..." : "AI chat is currently unavailable."}
-            aria-label="Message Nikunj's AI twin"
+            aria-label="Message Prabhdeep's AI twin"
             autoComplete="off"
             disabled={!canSendMessages || isLoading}
             className="flex-1 bg-background/50 border border-border/40 rounded-xl px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/40 transition-all placeholder:text-muted-foreground/50 disabled:cursor-not-allowed disabled:opacity-60"
@@ -948,7 +948,7 @@ const AITwinChat = () => {
         transition={shouldReduceMotion ? { duration: 0.2 } : { type: "spring", stiffness: 260, damping: 20 }}
         onClick={() => setIsOpen(!isOpen)}
         className={cn(
-          "fixed z-50 h-14 w-14 rounded-full bg-primary text-primary-foreground shadow-accent-card hover:shadow-[0_16px_36px_rgba(41,214,185,0.22)] flex items-center justify-center transition-all duration-300 ease-in-out border-2 border-primary/20 group cursor-pointer",
+          "fixed z-50 h-14 w-14 rounded-full bg-primary text-primary-foreground shadow-accent-card hover:shadow-[0_16px_36px_rgba(139,92,246,0.32)] flex items-center justify-center transition-all duration-300 ease-in-out border-2 border-primary/20 group cursor-pointer",
           isMobile ? "bottom-4 right-4" : "bottom-6 right-6"
         )}
         whileHover={shouldReduceMotion ? undefined : { scale: 1.1 }}

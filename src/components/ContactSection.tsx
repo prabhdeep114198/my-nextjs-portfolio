@@ -27,13 +27,13 @@ const SOCIAL_LINKS = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/nikunj-khitha",
+    value: "linkedin.com/in/prabhdeep-singh-632aa3201",
     href: personalInfo.linkedin,
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/Nikunj2003",
+    value: "github.com/prabhdeep114198",
     href: personalInfo.github,
   },
 ];
@@ -144,7 +144,7 @@ const ContactSection = () => {
             Get in <span className="text-gradient">Touch</span>
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto text-base leading-relaxed">
-            Open to backend, full-stack, platform, and AI product engineering opportunities, as well as thoughtful collaborations.
+            Open to Software Development, Full-Stack, and AI engineering opportunities, as well as thoughtful collaborations.
           </p>
         </motion.div>
 
@@ -178,7 +178,7 @@ const ContactSection = () => {
                 <div>
                   <h3 className="text-3xl font-bold mb-3 tracking-tight">Let&apos;s Build Something</h3>
                   <p className="text-base text-muted-foreground leading-relaxed" style={{ textWrap: "pretty" }}>
-                    If you&apos;re hiring for GenAI, AI platform, or backend product engineering work, I&apos;d love to talk. I&apos;m also open to thoughtful collaborations and open-source conversations.
+                    If you&apos;re hiring for Software Development, Full-Stack, or AI engineering roles, I&apos;d love to talk. I&apos;m also open to thoughtful collaborations and project-based work.
                   </p>
                 </div>
 
@@ -210,13 +210,13 @@ const ContactSection = () => {
                 <a
                   href={personalInfo.resumeUrl}
                   download
-                  className="flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-primary text-primary-foreground font-bold text-sm tracking-wide shadow-[0_0_16px_rgba(41,214,185,0.14)] hover:shadow-[0_0_24px_rgba(41,214,185,0.2)] transition-all duration-300 active:scale-[0.98]"
+                  className="flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-primary text-primary-foreground font-bold text-sm tracking-wide shadow-[0_0_20px_rgba(139,92,246,0.25)] hover:shadow-[0_0_30px_rgba(139,92,246,0.35)] transition-all duration-300 active:scale-[0.98]"
                 >
                   <Download className="w-4 h-4" />
                   Download Resume
                 </a>
                 <div className="flex items-center gap-2 text-xs font-medium text-muted-foreground border-t border-black/10 dark:border-white/5 pt-4">
-                  <span className="w-2 h-2 rounded-full bg-primary animate-pulse motion-reduce:animate-none shrink-0 shadow-[0_0_6px_rgba(41,214,185,0.28)]" />
+                  <span className="w-2 h-2 rounded-full bg-primary animate-pulse motion-reduce:animate-none shrink-0 shadow-[0_0_8px_rgba(139,92,246,0.4)]" />
                   Available for new opportunities
                 </div>
               </div>

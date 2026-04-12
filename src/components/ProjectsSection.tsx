@@ -123,8 +123,8 @@ function ProjectShowcase({
               ))}
             </CarouselContent>
             <div className="opacity-100 lg:opacity-0 lg:group-hover/img:opacity-100 lg:group-focus-within/img:opacity-100 transition-opacity duration-300">
-              <CarouselPrevious className="left-4 bg-background/80 hover:bg-background border-none w-10 h-10 flex items-center justify-center text-foreground hover:text-primary transition-colors z-20 shadow-[0_10px_24px_rgba(41,214,185,0.12)]" />
-              <CarouselNext className="right-4 bg-background/80 hover:bg-background border-none w-10 h-10 flex items-center justify-center text-foreground hover:text-primary transition-colors z-20 shadow-[0_10px_24px_rgba(41,214,185,0.12)]" />
+              <CarouselPrevious className="left-4 bg-background/80 hover:bg-background border-none w-10 h-10 flex items-center justify-center text-foreground hover:text-primary transition-colors z-20 shadow-[0_10px_24px_rgba(139,92,246,0.15)]" />
+              <CarouselNext className="right-4 bg-background/80 hover:bg-background border-none w-10 h-10 flex items-center justify-center text-foreground hover:text-primary transition-colors z-20 shadow-[0_10px_24px_rgba(139,92,246,0.15)]" />
             </div>
           </Carousel>
         ) : (
@@ -205,7 +205,7 @@ const ProjectsSection = () => {
                 aria-pressed={filter === cat}
                 className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-300 active:scale-95 border ${
                   filter === cat
-                    ? "bg-primary text-primary-foreground border-primary shadow-[0_0_14px_rgba(41,214,185,0.18)]"
+                    ? "bg-primary text-primary-foreground border-primary shadow-[0_0_14px_rgba(139,92,246,0.2)]"
                     : "glass-subtle text-muted-foreground border-white/5 hover:text-foreground hover:bg-white/10 hover:border-white/10"
                 }`}
               >
@@ -298,10 +298,10 @@ const ProjectsSection = () => {
           className="flex justify-center mt-12"
         >
           <a
-            href="https://github.com/Nikunj2003"
+            href="https://github.com/prabhdeep114198"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-8 py-4 rounded-full glass border border-white/10 border-b-white/5 text-sm font-bold text-foreground hover:text-primary hover:bg-white/10 transition-all duration-300 shadow-accent-soft hover:shadow-[0_0_18px_rgba(41,214,185,0.12)] active:scale-95"
+            className="flex items-center gap-2 px-8 py-4 rounded-full glass border border-white/10 border-b-white/5 text-sm font-bold text-foreground hover:text-primary hover:bg-white/10 transition-all duration-300 shadow-accent-soft hover:shadow-[0_0_20px_rgba(139,92,246,0.2)] active:scale-95"
           >
             <Github className="w-5 h-5" />
             Explore more repositories

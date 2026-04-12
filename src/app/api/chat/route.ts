@@ -195,8 +195,8 @@ function buildFallbackSuggestions(
 
   const fallbackByCategory: Record<string, string[]> = {
     experience: [
-      "What impact are you driving at ArmorCode?",
-      "How did Xansr shape your backend style?",
+      "What impact are you driving at Ensureit?",
+      "How did Arvius shape your frontend style?",
     ],
     skills: [
       "Which tools do you use most day to day?",
@@ -336,7 +336,7 @@ export async function POST(request: Request) {
       return createChatErrorResponse(
         503,
         "service_unavailable",
-        "The AI service is not configured right now. Please contact Nikunj directly if you need help.",
+        "The AI service is not configured right now. Please contact Prabhdeep directly if you need help.",
         rateLimitHeaders,
         false
       );
@@ -416,7 +416,7 @@ export async function POST(request: Request) {
         return createChatErrorResponse(
           503,
           "upstream_auth_error",
-          "The AI service is misconfigured right now. Please contact Nikunj if this keeps happening.",
+          "The AI service is misconfigured right now. Please contact Prabhdeep if this keeps happening.",
           rateLimitHeaders,
           false
         );

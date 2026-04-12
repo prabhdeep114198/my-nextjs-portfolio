@@ -56,9 +56,9 @@ const useFluidCursor = (
   const themeObserver =
     typeof MutationObserver !== "undefined"
       ? new MutationObserver(() => {
-          refreshAccentPalette();
-          pointers.forEach((p) => (p.color = generateColor()));
-        })
+        refreshAccentPalette();
+        pointers.forEach((p) => (p.color = generateColor()));
+      })
       : null;
   themeObserver?.observe(document.documentElement, {
     attributes: true,

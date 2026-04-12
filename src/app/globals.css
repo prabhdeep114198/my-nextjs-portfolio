@@ -9,28 +9,28 @@
   }
 
   :root {
-    --background: 40 20% 97%;
-    --foreground: 220 25% 10%;
-    --card: 40 15% 95%;
-    --card-foreground: 220 25% 10%;
-    --popover: 40 15% 95%;
-    --popover-foreground: 220 25% 10%;
-    --primary: 175 84% 32%;
+    --background: 240 20% 99%;
+    --foreground: 230 40% 12%;
+    --card: 240 20% 97%;
+    --card-foreground: 230 40% 12%;
+    --popover: 240 20% 97%;
+    --popover-foreground: 230 40% 12%;
+    --primary: 265 80% 50%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 170 20% 92%;
-    --secondary-foreground: 175 84% 22%;
-    --muted: 170 15% 92%;
-    --muted-foreground: 220 10% 45%;
-    --accent: 170 68% 50%;
-    --accent-light: 170 68% 60%;
-    --accent-dark: 176 61% 19%;
+    --secondary: 240 15% 94%;
+    --secondary-foreground: 265 80% 30%;
+    --muted: 240 10% 94%;
+    --muted-foreground: 230 15% 45%;
+    --accent: 195 90% 45%;
+    --accent-light: 195 90% 60%;
+    --accent-dark: 195 90% 30%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    --border: 175 20% 85%;
-    --input: 175 20% 85%;
-    --ring: 175 84% 32%;
-    --radius: 0.75rem;
+    --border: 230 20% 90%;
+    --input: 230 20% 90%;
+    --ring: 265 80% 50%;
+    --radius: 1rem;
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
     --sidebar-primary: 240 5.9% 10%;
@@ -42,27 +42,27 @@
   }
 
   .dark {
-    --background: 224 47% 7%;
-    --foreground: 170 20% 92%;
-    --card: 221 39% 11%;
-    --card-foreground: 170 20% 92%;
-    --popover: 221 39% 13%;
-    --popover-foreground: 170 20% 92%;
-    --primary: 170 68% 50%;
-    --primary-foreground: 224 47% 7%;
-    --secondary: 221 30% 15%;
-    --secondary-foreground: 170 40% 80%;
-    --muted: 221 30% 15%;
-    --muted-foreground: 220 15% 55%;
-    --accent: 170 68% 50%;
-    --accent-light: 170 68% 60%;
-    --accent-dark: 176 61% 19%;
-    --accent-foreground: 224 47% 7%;
-    --destructive: 0 62% 30%;
+    --background: 230 60% 3%;
+    --foreground: 210 20% 95%;
+    --card: 230 45% 6%;
+    --card-foreground: 210 20% 95%;
+    --popover: 230 45% 8%;
+    --popover-foreground: 210 20% 95%;
+    --primary: 265 89% 65%;
+    --primary-foreground: 230 60% 3%;
+    --secondary: 230 35% 12%;
+    --secondary-foreground: 265 70% 85%;
+    --muted: 230 35% 15%;
+    --muted-foreground: 220 20% 65%;
+    --accent: 185 100% 50%;
+    --accent-light: 185 100% 65%;
+    --accent-dark: 265 89% 30%;
+    --accent-foreground: 230 60% 3%;
+    --destructive: 0 80% 40%;
     --destructive-foreground: 0 0% 100%;
-    --border: 221 20% 18%;
-    --input: 221 20% 18%;
-    --ring: 170 68% 50%;
+    --border: 230 40% 12%;
+    --input: 230 40% 12%;
+    --ring: 265 89% 65%;
   }
 }
 
@@ -140,15 +140,15 @@ textarea,
 
 @layer utilities {
   .glass {
-    @apply bg-white/9 dark:bg-white/[0.035] backdrop-blur-xl border border-white/18 dark:border-white/[0.08];
+    @apply bg-white/10 dark:bg-white/[0.04] backdrop-blur-2xl border border-white/20 dark:border-white/[0.1];
   }
 
   .glass-strong {
-    @apply bg-white/16 dark:bg-white/[0.065] backdrop-blur-xl border border-white/24 dark:border-white/[0.11];
+    @apply bg-white/20 dark:bg-white/[0.08] backdrop-blur-2xl border border-white/30 dark:border-white/[0.15];
   }
 
   .glass-subtle {
-    @apply bg-white/4 dark:bg-white/[0.02] backdrop-blur-md border border-white/8 dark:border-white/[0.05];
+    @apply bg-white/5 dark:bg-white/[0.02] backdrop-blur-xl border border-white/10 dark:border-white/[0.06];
   }
 
   .text-gradient {
@@ -156,19 +156,19 @@ textarea,
   }
 
   .glow-accent {
-    box-shadow: 0 0 24px rgba(41, 214, 185, 0.1), 0 0 48px rgba(41, 214, 185, 0.035);
+    box-shadow: 0 0 24px rgba(139, 92, 246, 0.15), 0 0 48px rgba(139, 92, 246, 0.05);
   }
 
   .shadow-accent-soft {
-    box-shadow: 0 10px 24px rgba(41, 214, 185, 0.12);
+    box-shadow: 0 10px 24px rgba(139, 92, 246, 0.12);
   }
 
   .shadow-accent-card {
-    box-shadow: 0 16px 48px rgba(41, 214, 185, 0.16);
+    box-shadow: 0 16px 48px rgba(139, 92, 246, 0.16);
   }
 
   .shadow-accent-strong {
-    box-shadow: 0 22px 68px rgba(41, 214, 185, 0.2);
+    box-shadow: 0 22px 68px rgba(139, 92, 246, 0.2);
   }
 
   .section-padding {

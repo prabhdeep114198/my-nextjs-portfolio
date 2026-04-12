@@ -1,9 +1,9 @@
 import { about, experiences, personalInfo, projects, skillCategories, stats } from "@/data/portfolio";
 
 export const CHAT_MEMORY_WINDOW = 10;
-export const CHAT_STORAGE_KEY = "nikunj-ai-twin-chat";
+export const CHAT_STORAGE_KEY = "prabhdeep-ai-twin-chat";
 export const PROJECT_ANCHOR_PREFIX = "project-";
-export const WELCOME_MESSAGE = "Hi — I’m Nikunj’s AI twin. I can give you a quick recruiter summary, walk through a project, or explain how he approaches GenAI, backend systems, and product engineering. You can also [jump to projects](#projects) or [download the resume](/Nikunj_Resume.pdf).";
+export const WELCOME_MESSAGE = "Hi — I’m Prabhdeep’s AI twin. I can give you a quick recruiter summary, walk through a project, or explain how he approaches full-stack development, NestJS, and AI automation. You can also [jump to projects](#projects) or [download the resume](/Prabhdeep_Singh_Resume.pdf).";
 
 type ConversationWindowMessage = {
   content: string;
@@ -204,9 +204,9 @@ function buildInlineLinkSentence(links: InlineLink[]) {
   const clauses = links.map((link) => {
     switch (link.kind) {
       case "linkedin":
-        return `view Nikunj's [LinkedIn](${link.href})`;
+        return `view Prabhdeep's [LinkedIn](${link.href})`;
       case "github":
-        return `browse Nikunj's [GitHub](${link.href})`;
+        return `browse Prabhdeep's [GitHub](${link.href})`;
       case "resume":
         return `download the [resume](${link.href})`;
       case "contact":
