@@ -37,7 +37,7 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    company: "Ensureit Technologies Pvt. Ltd.",
+    company: "Ensuredit Technologies Pvt. Ltd.",
     role: "Software Development Intern",
     period: "Aug. 2025 – Present",
     type: "work",
@@ -166,7 +166,7 @@ export const skillCategories = [
 export const chatSuggestions = [
   "What is the tech stack of ElderConnect?",
   "How did you achieve 90% accuracy in DermaSense?",
-  "Tell me about your experience at Ensureit Technologies.",
+  "Tell me about your experience at Ensuredit Technologies.",
   "How do you use n8n for AI automation?",
   "What are your key skills in full-stack development?",
 ];

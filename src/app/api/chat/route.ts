@@ -195,7 +195,7 @@ function buildFallbackSuggestions(
 
   const fallbackByCategory: Record<string, string[]> = {
     experience: [
-      "What impact are you driving at Ensureit?",
+      "What impact are you driving at Ensuredit?",
       "How did Arvius shape your frontend style?",
     ],
     skills: [
