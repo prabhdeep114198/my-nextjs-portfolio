@@ -1,15 +1,15 @@
 {
   "name": "my-next-js-portfolio-v2",
   "version": "1.0.0",
-  "description": "A modern Next.js portfolio for Nikunj Khitha showcasing GenAI platform engineering work, projects, experience, and interactive AI-powered features.",
+  "description": "A modern Next.js portfolio for Prabhdeep Singh showcasing Full-Stack & AI Engineering work, projects, experience, and interactive AI-powered features.",
   "type": "module",
-  "homepage": "https://nikunj.codenex.dev",
+  "homepage": "https://github.com/prabhdeep114198/my-nextjs-portfolio",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nikunj2003/My-Next-Js-Portfolio-v2.git"
+    "url": "git+https://github.com/prabhdeep114198/my-nextjs-portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/Nikunj2003/My-Next-Js-Portfolio-v2/issues"
+    "url": "https://github.com/prabhdeep114198/my-nextjs-portfolio/issues"
   },
   "scripts": {
     "dev": "next dev",
@@ -24,16 +24,15 @@
     "react",
     "typescript",
     "tailwindcss",
-    "genai",
-    "rag",
-    "graphrag",
-    "ai-platform",
-    "full-stack"
+    "full-stack",
+    "ai",
+    "automation",
+    "nestjs"
   ],
   "author": {
-    "name": "Nikunj Khitha",
-    "email": "njkhitha2003@gmail.com",
-    "url": "https://nikunj.codenex.dev"
+    "name": "Prabhdeep Singh",
+    "email": "sprabhdeep960@gmail.com",
+    "url": "https://github.com/prabhdeep114198"
   },
   "license": "ISC",
   "dependencies": {

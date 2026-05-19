@@ -79,7 +79,7 @@ The AI Twin is the most application-like feature in the repo.
 - `src/lib/ai-config.ts` contains the system prompts and model selection.
 - `src/lib/ai-twin.ts` builds the portfolio knowledge context, normalizes project matching, manages stored chat history, and injects contextual links into AI responses.
 
-Important constraint: the AI assistant is intentionally scoped to Nikunj’s professional profile and project history. If you change portfolio data or project naming, review both the prompt context and link-generation logic.
+Important constraint: the AI assistant is intentionally scoped to Prabhdeep's professional profile and project history. If you change portfolio data or project naming, review both the prompt context and link-generation logic.
 
 ### Contact flow
 

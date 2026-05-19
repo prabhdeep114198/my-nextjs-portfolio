@@ -9,8 +9,8 @@ import {
 
 test("contactRequestSchema accepts the visible form fields plus anti-spam metadata", () => {
   const result = contactRequestSchema.safeParse({
-    name: "Nikunj",
-    email: "njkhitha2003@gmail.com",
+    name: "Prabhdeep",
+    email: "sprabhdeep960@gmail.com",
     reason: "Hiring",
     message: "This is a valid contact message.",
     website: "",
