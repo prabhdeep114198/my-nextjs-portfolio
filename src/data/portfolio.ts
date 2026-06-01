@@ -38,8 +38,19 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     company: "Ensuredit Technologies Pvt. Ltd.",
+    role: "Software Developer",
+    period: "June 2026 – Present",
+    type: "work",
+    summary: "Developing and maintaining scalable software solutions and API integrations.",
+    bullets: [
+      "Driving the development of robust backend APIs using NestJS and responsive frontend components with React.js.",
+      "Leading the implementation of AI-driven automation workflows and optimizing system performance for large-scale insurance integrations."
+    ],
+  },
+  {
+    company: "Ensuredit Technologies Pvt. Ltd.",
     role: "Software Development Intern",
-    period: "Aug. 2025 – Present",
+    period: "Aug. 2025 – May 2026",
     type: "work",
     summary: "Engineering secure and scalable insurance platforms using NestJS and React.js.",
     bullets: [

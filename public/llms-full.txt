@@ -28,15 +28,19 @@ Core areas:
    - Stack signals: Python, CNNs, Deep Learning, NLP, React, PostgreSQL, Geolocation APIs.
 
 ## Experience
-1. Ensuredit Technologies Pvt. Ltd. (Software Development Intern)
-   - Aug. 2025 – Present
+1. Ensuredit Technologies Pvt. Ltd. (Software Developer)
+   - June 2026 – Present
+   - Developing scalable software solutions and API integrations, driving full-stack features with NestJS and React.js.
+
+2. Ensuredit Technologies Pvt. Ltd. (Software Development Intern)
+   - Aug. 2025 – May 2026
    - Engineered RESTful APIs using NestJS for secure, scalable insurance policy issuance across motor, health, and appliance insurance.
    - Developed React.js frontend components and integrated n8n AI workflows to automate integrations.
 
-2. Arvius Software Pvt. Ltd. (Frontend Development Intern)
+3. Arvius Software Pvt. Ltd. (Frontend Development Intern)
    - June 2025 – July 2025
    - Developed and optimized React.js components for the UTOM telecom operations platform.
 
-3. SmartTechKs (Software Development Intern - AI & Web)
+4. SmartTechKs (Software Development Intern - AI & Web)
    - Jun 2024 - Apr 2025
    - Reduced provisioning time by 30% using Docker, and improved frontend load times by 18%.
