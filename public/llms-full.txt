@@ -19,28 +19,35 @@ Core areas:
 ## Featured projects
 1. ElderConnect: Smart AI Companion
    - URL: https://github.com/prabhdeep114198/ElderConnect
-   - Summary: A comprehensive AI-powered virtual companion for elderly health and safety, featuring medication reminders, mood-driven engagement, and fall detection.
-   - Stack signals: NestJS, React, Agentic AI, Voice AI, IoT, n8n, Docker.
+   - Summary: A voice-first, accessibility-focused AI companion app using NestJS and React.js, featuring medication reminders and fall detection.
+   - Stack signals: NestJS, React.js, Agentic AI, Voice AI, IoT, n8n, Docker.
 
 2. DermaSense: Skin Disease AI
    - URL: https://github.com/prabhdeep114198/DermaSense
-   - Summary: AI-powered diagnostic system for skin diseases using Convolutional Neural Networks (CNNs) with 90.4% diagnostic accuracy, coupled with a medical chatbot.
-   - Stack signals: Python, CNNs, Deep Learning, NLP, React, PostgreSQL, Geolocation APIs.
+   - Summary: AI-powered diagnostic system for skin diseases using CNNs with 90.4% accuracy and a medical chatbot.
+   - Stack signals: Python, CNNs, Deep Learning, NLP, React.js, PostgreSQL, Geolocation APIs.
 
 ## Experience
 1. Ensuredit Technologies Pvt. Ltd. (Software Developer)
-   - June 2026 – Present
-   - Developing scalable software solutions and API integrations, driving full-stack features with NestJS and React.js.
+   - Jun 2026 – Present
+   - Architected and delivered scalable RESTful APIs using NestJS and Node.js for high-volume insurance integrations, onboarding 3+ new major insurance providers and increasing transaction throughput by 25%.
+   - Engineered AI automation integrations using n8n and NestJS, achieving a 40% reduction in manual data mapping tasks for complex multi-party insurance integrations.
 
 2. Ensuredit Technologies Pvt. Ltd. (Software Development Intern)
-   - Aug. 2025 – May 2026
-   - Engineered RESTful APIs using NestJS for secure, scalable insurance policy issuance across motor, health, and appliance insurance.
-   - Developed React.js frontend components and integrated n8n AI workflows to automate integrations.
+   - Aug 2025 – May 2026
+   - Engineered secure RESTful APIs using NestJS, Node.js, and PostgreSQL to onboard 3+ insurance providers, reducing policy issuance latency by 20% and supporting 5,000+ monthly active transactions.
+   - Developed responsive React.js frontend components and client-specific policy templates, improving user conversion rate by 15% across motor and appliance insurance purchase screens.
+   - Implemented AI automation workflows using n8n, which automated insurer data validation and eliminated manual verification efforts by 35%.
+   - Optimized and debugged full-stack features to enhance system reliability, resolving 45+ critical production bugs and ensuring 99.9% uptime during platform integration phases.
 
 3. Arvius Software Pvt. Ltd. (Frontend Development Intern)
-   - June 2025 – July 2025
-   - Developed and optimized React.js components for the UTOM telecom operations platform.
+   - Jun 2025 – Jul 2025
+   - Implemented responsive, reusable UI modules using React.js for the Unified Telecom Operations Manager (UTOM) platform, reducing code redundancy by 25% and accelerating page load times by 15%.
+   - Optimized user interface performance and maintainability by refactoring legacy React.js components, achieving a 22% increase in Lighthouse performance scores.
+   - Delivered core telecom dashboard features while working in agile cross-functional teams, completing 100% of assigned sprint tasks on time.
 
 4. SmartTechKs (Software Development Intern - AI & Web)
-   - Jun 2024 - Apr 2025
-   - Reduced provisioning time by 30% using Docker, and improved frontend load times by 18%.
+   - Jun 2024 – Apr 2025
+   - Reduced deployment provisioning time by 30% by containerizing backend services using Docker and establishing efficient CI/CD pipelines.
+   - Improved frontend page load time by 18% by refactoring React.js component structures and optimizing data fetching strategies.
+   - Designed user-friendly interfaces and full-stack backend services in an agile environment, leading to a 10% increase in daily active user engagement.

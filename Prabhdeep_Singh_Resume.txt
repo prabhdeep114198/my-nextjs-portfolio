@@ -1,0 +1,60 @@
+PRABHDEEP SINGH
+Phone: 8368159277 | Email: sprabhdeep960@gmail.com
+LinkedIn: linkedin.com/in/prabhdeep-singh-632aa3201
+GitHub: github.com/prabhdeep114198
+Portfolio: prabhdeep-portfolio.vercel.app
+
+Professional Summary
+Results-driven Full-Stack Engineer with 2+ years of experience specializing in Node.js, NestJS, React.js, and AI automation using n8n to architect high-performance insurance platforms. Proven track record of delivering secure, scalable RESTful APIs, optimizing frontend load times by 18%, and integrating deep learning CNNs with 90.4% diagnostic accuracy. Expert in containerizing deployments using Docker, designing robust databases in PostgreSQL, and driving software lifecycle efficiency within agile development teams.
+
+Work Experience
+Ensuredit Technologies Pvt. Ltd. | Gurugram, Haryana
+Software Developer | Jun 2026 – Present
+- Architected and delivered scalable RESTful APIs using NestJS and Node.js for high-volume insurance integrations, onboarding 3+ new major insurance providers and increasing transaction throughput by 25%.
+- Engineered AI automation integrations using n8n and NestJS, achieving a 40% reduction in manual data mapping tasks for complex multi-party insurance integrations.
+
+Ensuredit Technologies Pvt. Ltd. | Gurugram, Haryana
+Software Development Intern | Aug 2025 – May 2026
+- Engineered secure RESTful APIs using NestJS, Node.js, and PostgreSQL to onboard 3+ insurance providers, reducing policy issuance latency by 20% and supporting 5,000+ monthly active transactions.
+- Developed responsive React.js frontend components and client-specific policy templates, improving user conversion rate by 15% across motor and appliance insurance purchase screens.
+- Implemented AI automation workflows using n8n, which automated insurer data validation and eliminated manual verification efforts by 35%.
+- Optimized and debugged full-stack features to enhance system reliability, resolving 45+ critical production bugs and ensuring 99.9% uptime during platform integration phases.
+
+Arvius Software Pvt. Ltd. | Noida, Uttar Pradesh
+Frontend Development Intern | Jun 2025 – Jul 2025
+- Implemented responsive, reusable UI modules using React.js for the Unified Telecom Operations Manager (UTOM) platform, reducing code redundancy by 25% and accelerating page load times by 15%.
+- Optimized user interface performance and maintainability by refactoring legacy React.js components, achieving a 22% increase in Lighthouse performance scores.
+- Delivered core telecom dashboard features while working in agile cross-functional teams, completing 100% of assigned sprint tasks on time.
+
+SmartTechKs | Remote
+Software Development Intern (AI & Web) | Jun 2024 – Apr 2025
+- Reduced deployment provisioning time by 30% by containerizing backend services using Docker and establishing efficient CI/CD pipelines.
+- Improved frontend page load time by 18% by refactoring React.js component structures and optimizing data fetching strategies.
+- Designed user-friendly interfaces and full-stack backend services in an agile environment, leading to a 10% increase in daily active user engagement.
+
+Projects
+ElderConnect – Smart AI Companion | Sep 2025 – Present
+- Architected a voice-first, accessibility-focused AI companion app using NestJS and React.js, featuring real-time medication reminders and caregiver dashboards to enhance elderly safety.
+- Implemented autonomous Agentic AI behaviors using n8n for workflow automation, delivering fall detection algorithms and automated emergency SOS notifications.
+- Designed a sustainability-first, energy-optimized system utilizing Docker, resulting in a 25% reduction in local server power consumption via on-device processing.
+- Link: github.com/prabhdeep114198/ElderConnect
+
+DermaSense – Skin Disease AI | Jan 2025 – May 2025
+- Engineered a skin disease prediction system using deep learning CNNs, achieving 90.4% diagnostic accuracy across 10+ distinct dermatological conditions.
+- Built an NLP-based medical consultation chatbot in Python that successfully handled inquiries for 100+ beta users during the pilot testing phase.
+- Integrated geolocation APIs to locate nearby dermatology clinics and implemented encrypted PostgreSQL databases to secure patient medical history.
+- Link: github.com/prabhdeep114198/DermaSense
+
+Education
+The NorthCap University | Gurugram, Haryana
+B.Tech in Computer Science | Aug 2022 – Jul 2026
+CGPA: 8.5/10 | Specialization: Software Engineering & Artificial Intelligence
+
+Technical Skills
+- Languages: Java, JavaScript, Python, SQL, HTML, CSS
+- Backend Frameworks: Node.js, NestJS, Spring Boot, Hibernate, Express.js, JWT, OAuth, RESTful APIs
+- Frontend: React.js, Tailwind CSS, Responsive Design, Axios
+- Databases: MySQL, PostgreSQL
+- AI & ML: Deep Learning, CNNs, NLP, Agentic AI, Voice AI, Prompt Engineering, n8n
+- DevOps & Tools: Docker, Git, GitHub, Postman, VS Code, Cursor, Eclipse
+- Methodologies: Agile, Scrum

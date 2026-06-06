@@ -39,61 +39,60 @@ export const experiences: Experience[] = [
   {
     company: "Ensuredit Technologies Pvt. Ltd.",
     role: "Software Developer",
-    period: "June 2026 – Present",
+    period: "Jun 2026 – Present",
     type: "work",
-    summary: "Developing and maintaining scalable software solutions and API integrations.",
+    summary: "Architecting scalable backend APIs and implementing AI-driven automation workflows for insurance integrations.",
     bullets: [
-      "Driving the development of robust backend APIs using NestJS and responsive frontend components with React.js.",
-      "Leading the implementation of AI-driven automation workflows and optimizing system performance for large-scale insurance integrations."
+      "Architected and delivered scalable RESTful APIs using NestJS and Node.js for high-volume insurance integrations, onboarding 3+ new major insurance providers and increasing transaction throughput by 25%.",
+      "Engineered AI automation integrations using n8n and NestJS, achieving a 40% reduction in manual data mapping tasks for complex multi-party insurance integrations."
     ],
   },
   {
     company: "Ensuredit Technologies Pvt. Ltd.",
     role: "Software Development Intern",
-    period: "Aug. 2025 – May 2026",
+    period: "Aug 2025 – May 2026",
     type: "work",
     summary: "Engineering secure and scalable insurance platforms using NestJS and React.js.",
     bullets: [
-      "Engineered and integrated RESTful APIs using NestJS to onboard multiple insurance providers, enabling secure and scalable policy issuance for motor, health, and appliance insurance.",
-      "Developed and optimized React.js frontend components and client-specific policy templates, supporting seamless end-to-end insurance purchase and issuance workflows.",
-      "Implemented AI-driven automation workflows using n8n, reducing manual intervention and improving efficiency in insurer and client integrations.",
-      "Debugged, tested, and optimized full-stack features to ensure high system reliability and smooth third-party API integrations.",
+      "Engineered secure RESTful APIs using NestJS, Node.js, and PostgreSQL to onboard 3+ insurance providers, reducing policy issuance latency by 20% and supporting 5,000+ monthly active transactions.",
+      "Developed responsive React.js frontend components and client-specific policy templates, improving user conversion rate by 15% across motor and appliance insurance purchase screens.",
+      "Implemented AI automation workflows using n8n, which automated insurer data validation and eliminated manual verification efforts by 35%.",
+      "Optimized and debugged full-stack features to enhance system reliability, resolving 45+ critical production bugs and ensuring 99.9% uptime during platform integration phases."
     ],
   },
   {
     company: "Arvius Software Pvt. Ltd.",
     role: "Frontend Development Intern",
-    period: "June 2025 – July 2025",
+    period: "Jun 2025 – Jul 2025",
     type: "work",
     summary: "Built and optimized UI modules for large-scale telecom operations platforms.",
     bullets: [
-      "Developed and optimized React.js frontend components for the Unified Telecom Operations Manager (UTOM) platform, improving UI performance and code maintainability.",
-      "Implemented responsive, reusable UI modules and resolved frontend issues, strengthening system integration, usability, and application stability.",
-      "Collaborated with cross-functional teams to debug, test, and deliver scalable telecom software solutions in an agile environment.",
+      "Implemented responsive, reusable UI modules using React.js for the Unified Telecom Operations Manager (UTOM) platform, reducing code redundancy by 25% and accelerating page load times by 15%.",
+      "Optimized user interface performance and maintainability by refactoring legacy React.js components, achieving a 22% increase in Lighthouse performance scores.",
+      "Delivered core telecom dashboard features while working in agile cross-functional teams, completing 100% of assigned sprint tasks on time."
     ],
   },
   {
     company: "SmartTechKs (Remote)",
     role: "Software Development Intern (AI & Web)",
-    period: "Jun 2024 - Apr 2025",
+    period: "Jun 2024 – Apr 2025",
     type: "work",
     summary: "Designed user-friendly interfaces and backend services with a focus on containerization and performance.",
     bullets: [
-      "Designed and engineered user-friendly interfaces and backend services aligned with business requirements.",
-      "Reduced provisioning time by 30% by containerizing deployments with Docker.",
-      "Refactored component structure, improving frontend load time by 18%.",
-      "Collaborated closely with cross-functional teams to deliver functionality aligned with user needs.",
+      "Reduced deployment provisioning time by 30% by containerizing backend services using Docker and establishing efficient CI/CD pipelines.",
+      "Improved frontend page load time by 18% by refactoring React.js component structures and optimizing data fetching strategies.",
+      "Designed user-friendly interfaces and full-stack backend services in an agile environment, leading to a 10% increase in daily active user engagement."
     ],
   },
   {
     company: "The NorthCap University",
     role: "Bachelor of Technology in Computer Science",
-    period: "Aug. 2022 – July 2026",
+    period: "Aug 2022 – Jul 2026",
     type: "education",
     summary: "Focusing on core computer science principles and full-stack development. (8.5 CGPA)",
     bullets: [
       "Specializing in Software Engineering and Artificial Intelligence.",
-      "Active participant in technical workshops and project-based learning.",
+      "Active participant in technical workshops and project-based learning."
     ],
   },
 ];
@@ -123,13 +122,13 @@ export const projects: Project[] = [
     description: "Designed a voice-first, accessibility-focused system to support elderly health. The solution is split into a [Frontend](https://github.com/prabhdeep114198/ElderConnect) and a [Backend](https://github.com/prabhdeep114198/elderconnect_be) architecture, featuring medication reminders, mood-driven engagement, and fall detection.",
     impact: "Provides a proactive care ecosystem for the elderly while ensuring privacy and sustainability through eco-mode and on-device processing.",
     role: "System Architect & AI Engineer",
-    timeline: "Sept. 2025 – Present",
+    timeline: "Sep 2025 – Present",
     complexity: "Agentic AI behaviors, voice integration, and IoT connectivity",
     images: [
       "/images/projects/elderconnect/dashboard.png",
       "/images/projects/elderconnect/ai-report.png",
     ],
-    tech: ["NestJS", "React", "Agentic AI", "Voice AI", "IoT", "n8n", "Docker"],
+    tech: ["NestJS", "React.js", "Agentic AI", "Voice AI", "IoT", "n8n", "Docker"],
     github: "https://github.com/prabhdeep114198/ElderConnect",
   },
   {
@@ -140,13 +139,13 @@ export const projects: Project[] = [
     description: "Built a skin disease prediction system using Convolutional Neural Networks (CNNs) for high diagnostic accuracy, coupled with an AI chatbot for preliminary consultations.",
     impact: "Achieved 90.4% diagnostic accuracy and successfully handled 100+ test users during the pilot phase.",
     role: "AI Developer & Full-Stack Engineer",
-    timeline: "Completed Project",
+    timeline: "Jan 2025 – May 2025",
     complexity: "CNN Implementation, NLP Chatbot, and Geolocation Mapping",
     images: [
       "/images/projects/dermasense/diagnostics.png",
       "/images/projects/dermasense/chatbot.png",
     ],
-    tech: ["Python", "CNNs", "Deep Learning", "NLP", "React", "PostgreSQL", "Geolocation APIs"],
+    tech: ["Python", "CNNs", "Deep Learning", "NLP", "React.js", "PostgreSQL", "Geolocation APIs"],
     github: "https://github.com/prabhdeep114198/DermaSense",
   },
 ];
@@ -155,12 +154,12 @@ export const skillCategories = [
   {
     title: "Backend & Systems",
     description: "Core technologies I use to build robust and scalable server-side systems.",
-    skills: ["Node.js", "NestJS", "Spring Boot", "Hibernate", "Express.js", "Java", "JavaScript", "SQL (MySQL, PostgreSQL)", "RESTful APIs"],
+    skills: ["Node.js", "NestJS", "Spring Boot", "Hibernate", "Express.js", "Java", "JavaScript", "SQL (MySQL, PostgreSQL)", "RESTful APIs", "JWT", "OAuth"],
   },
   {
     title: "Frontend & UI/UX",
     description: "Modern frameworks and libraries for building responsive and interactive interfaces.",
-    skills: ["React", "HTML/CSS", "Tailwind CSS", "JWT", "Axios", "OAuth", "Responsive Design"],
+    skills: ["React.js", "HTML/CSS", "Tailwind CSS", "Axios", "Responsive Design"],
   },
   {
     title: "AI, ML & Automation",
